@@ -1,0 +1,28 @@
+{
+  "name": "hallaca-countdown",
+  "version": "1.0.0",
+  "description": "A friendly node package that will tell you how much time is left to christmas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelCiav/hallaca-countdown.git"
+  },
+  "keywords": [
+    "node",
+    "christmas",
+    "hallaca"
+  ],
+  "author": "Miguel Ciavato <miguelciavato@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelCiav/hallaca-countdown/issues"
+  },
+  "homepage": "https://github.com/MiguelCiav/hallaca-countdown#readme",
+  "bin" : {
+    "hallaca-countdown": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
